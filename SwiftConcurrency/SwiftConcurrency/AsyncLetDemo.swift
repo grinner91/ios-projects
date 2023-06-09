@@ -47,7 +47,7 @@ struct AsyncLetDemo: View {
 
     func fetchImage() async throws -> UIImage {
         do {
-            let (data, res) = try await URLSession.shared.data(from: url!)
+            let (data, _) = try await URLSession.shared.data(from: url!)
             
             if let image = UIImage(data: data) {
                 return image

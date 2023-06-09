@@ -1,0 +1,6 @@
+Dummy JSON data:
+
+https://jsonplaceholder.typicode.com
+
+Dummy photos:
+https://picsum.photos/300

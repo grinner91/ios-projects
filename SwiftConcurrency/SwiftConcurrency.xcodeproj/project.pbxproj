@@ -15,6 +15,9 @@
 		390F7CAC2A313B7C004533A3 /* SwiftConcurrencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7CAB2A313B7C004533A3 /* SwiftConcurrencyUITests.swift */; };
 		390F7CAE2A313B7C004533A3 /* SwiftConcurrencyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7CAD2A313B7C004533A3 /* SwiftConcurrencyUITestsLaunchTests.swift */; };
 		390F7CBB2A313C88004533A3 /* AsyncLetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7CBA2A313C88004533A3 /* AsyncLetDemo.swift */; };
+		390F7CBF2A32C710004533A3 /* AsyncImageDownloaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7CBE2A32C710004533A3 /* AsyncImageDownloaderDemo.swift */; };
+		390F7CC12A32FCB8004533A3 /* AsyncImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7CC02A32FCB8004533A3 /* AsyncImageDownloader.swift */; };
+		390F7CC32A32FD07004533A3 /* AsyncImageDownloaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7CC22A32FD07004533A3 /* AsyncImageDownloaderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		390F7CAB2A313B7C004533A3 /* SwiftConcurrencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyUITests.swift; sourceTree = "<group>"; };
 		390F7CAD2A313B7C004533A3 /* SwiftConcurrencyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		390F7CBA2A313C88004533A3 /* AsyncLetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetDemo.swift; sourceTree = "<group>"; };
+		390F7CBE2A32C710004533A3 /* AsyncImageDownloaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageDownloaderDemo.swift; sourceTree = "<group>"; };
+		390F7CC02A32FCB8004533A3 /* AsyncImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageDownloader.swift; sourceTree = "<group>"; };
+		390F7CC22A32FD07004533A3 /* AsyncImageDownloaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageDownloaderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 				390F7C942A313B7C004533A3 /* Assets.xcassets */,
 				390F7C962A313B7C004533A3 /* Preview Content */,
 				390F7CBA2A313C88004533A3 /* AsyncLetDemo.swift */,
+				390F7CC42A32FD39004533A3 /* AsyncImageDownloader */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -128,6 +135,16 @@
 				390F7CAD2A313B7C004533A3 /* SwiftConcurrencyUITestsLaunchTests.swift */,
 			);
 			path = SwiftConcurrencyUITests;
+			sourceTree = "<group>";
+		};
+		390F7CC42A32FD39004533A3 /* AsyncImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				390F7CC02A32FCB8004533A3 /* AsyncImageDownloader.swift */,
+				390F7CC22A32FD07004533A3 /* AsyncImageDownloaderViewModel.swift */,
+				390F7CBE2A32C710004533A3 /* AsyncImageDownloaderDemo.swift */,
+			);
+			name = AsyncImageDownloader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				390F7CC32A32FD07004533A3 /* AsyncImageDownloaderViewModel.swift in Sources */,
 				390F7C932A313B78004533A3 /* ContentView.swift in Sources */,
 				390F7C912A313B78004533A3 /* SwiftConcurrencyApp.swift in Sources */,
+				390F7CBF2A32C710004533A3 /* AsyncImageDownloaderDemo.swift in Sources */,
+				390F7CC12A32FCB8004533A3 /* AsyncImageDownloader.swift in Sources */,
 				390F7CBB2A313C88004533A3 /* AsyncLetDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
