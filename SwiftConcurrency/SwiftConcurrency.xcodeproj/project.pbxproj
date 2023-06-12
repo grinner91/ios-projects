@@ -18,6 +18,9 @@
 		390F7CBF2A32C710004533A3 /* AsyncImageDownloaderDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7CBE2A32C710004533A3 /* AsyncImageDownloaderDemo.swift */; };
 		390F7CC12A32FCB8004533A3 /* AsyncImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7CC02A32FCB8004533A3 /* AsyncImageDownloader.swift */; };
 		390F7CC32A32FD07004533A3 /* AsyncImageDownloaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7CC22A32FD07004533A3 /* AsyncImageDownloaderViewModel.swift */; };
+		390F7CC92A34181D004533A3 /* ConcurrentTaskGroupDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7CC82A34181D004533A3 /* ConcurrentTaskGroupDemo.swift */; };
+		390F7CCB2A36C161004533A3 /* ConcurrentTaskGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7CCA2A36C161004533A3 /* ConcurrentTaskGroupViewModel.swift */; };
+		390F7CCD2A36C188004533A3 /* ConcurrentTaskGroupDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7CCC2A36C188004533A3 /* ConcurrentTaskGroupDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		390F7CBE2A32C710004533A3 /* AsyncImageDownloaderDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageDownloaderDemo.swift; sourceTree = "<group>"; };
 		390F7CC02A32FCB8004533A3 /* AsyncImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageDownloader.swift; sourceTree = "<group>"; };
 		390F7CC22A32FD07004533A3 /* AsyncImageDownloaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageDownloaderViewModel.swift; sourceTree = "<group>"; };
+		390F7CC82A34181D004533A3 /* ConcurrentTaskGroupDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentTaskGroupDemo.swift; sourceTree = "<group>"; };
+		390F7CCA2A36C161004533A3 /* ConcurrentTaskGroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentTaskGroupViewModel.swift; sourceTree = "<group>"; };
+		390F7CCC2A36C188004533A3 /* ConcurrentTaskGroupDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentTaskGroupDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 			children = (
 				390F7C902A313B78004533A3 /* SwiftConcurrencyApp.swift */,
 				390F7C922A313B78004533A3 /* ContentView.swift */,
+				390F7CC52A34178E004533A3 /* ConcurrentTaskGroup */,
 				390F7C942A313B7C004533A3 /* Assets.xcassets */,
 				390F7C962A313B7C004533A3 /* Preview Content */,
 				390F7CBA2A313C88004533A3 /* AsyncLetDemo.swift */,
@@ -145,6 +152,16 @@
 				390F7CBE2A32C710004533A3 /* AsyncImageDownloaderDemo.swift */,
 			);
 			name = AsyncImageDownloader;
+			sourceTree = "<group>";
+		};
+		390F7CC52A34178E004533A3 /* ConcurrentTaskGroup */ = {
+			isa = PBXGroup;
+			children = (
+				390F7CC82A34181D004533A3 /* ConcurrentTaskGroupDemo.swift */,
+				390F7CCA2A36C161004533A3 /* ConcurrentTaskGroupViewModel.swift */,
+				390F7CCC2A36C188004533A3 /* ConcurrentTaskGroupDataManager.swift */,
+			);
+			path = ConcurrentTaskGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,8 +296,11 @@
 			files = (
 				390F7CC32A32FD07004533A3 /* AsyncImageDownloaderViewModel.swift in Sources */,
 				390F7C932A313B78004533A3 /* ContentView.swift in Sources */,
+				390F7CC92A34181D004533A3 /* ConcurrentTaskGroupDemo.swift in Sources */,
 				390F7C912A313B78004533A3 /* SwiftConcurrencyApp.swift in Sources */,
+				390F7CCB2A36C161004533A3 /* ConcurrentTaskGroupViewModel.swift in Sources */,
 				390F7CBF2A32C710004533A3 /* AsyncImageDownloaderDemo.swift in Sources */,
+				390F7CCD2A36C188004533A3 /* ConcurrentTaskGroupDataManager.swift in Sources */,
 				390F7CC12A32FCB8004533A3 /* AsyncImageDownloader.swift in Sources */,
 				390F7CBB2A313C88004533A3 /* AsyncLetDemo.swift in Sources */,
 			);

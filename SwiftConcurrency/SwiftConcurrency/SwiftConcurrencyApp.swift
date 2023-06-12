@@ -6,7 +6,8 @@ struct SwiftConcurrencyApp: App {
     var body: some Scene {
         WindowGroup {
            // ContentView()
-           AsyncImageDownloaderDemo()
+           //AsyncImageDownloaderDemo()
+            ConcurrentTaskGroupDemo()
         }
     }
 }
